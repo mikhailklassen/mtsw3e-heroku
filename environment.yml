@@ -21,7 +21,6 @@ dependencies:
   - sqlalchemy
   - nose
   # Mining the Social Web 3rd Edition Requirements
-  - appnope
   - attrs
   - backcall
   - beautifulsoup4
@@ -62,13 +61,11 @@ dependencies:
   - mpmath
   - nbconvert
   - nbformat
-  - ncurses
   - networkx
   - numexpr
   - numpy
   - olefile
   - openblas
-  - openssl
   - pandas
   - pandoc
   - pandocfilters
@@ -88,7 +85,6 @@ dependencies:
   - pytz
   - pywavelets
   - pyzmq
-  - readline
   - scikit-image
   - scikit-learn
   - scipy
@@ -98,7 +94,6 @@ dependencies:
   - sympy
   - terminado
   - testpath
-  - tk
   - toolz
   - traitlets
   - vincent
@@ -107,7 +102,6 @@ dependencies:
   - widgetsnbextension
   - xlrd
   - zeromq
-  - zlib
   - libgfortran
   # To be installed via pip
   - pip:
@@ -119,7 +113,6 @@ dependencies:
     - boilerpipe3==1.1
     - cffi==1.11.5
     - charade==1.0.3
-    - chardet==3.0.4
     - cluster==1.4.0
     - dask==1.0.0
     - envoy==0.0.3
@@ -129,7 +122,6 @@ dependencies:
     - geopy==1.11.0
     - google-api-python-client==1.6.6
     - httplib2==0.12.0
-    - idna==2.8
     - itsdangerous==1.1.0
     - jpype1-py3==0.5.5.2
     - jupyterhub==0.9.4
