@@ -21,19 +21,19 @@ dependencies:
   - sqlalchemy
   - nose
   # Mining the Social Web 3rd Edition Requirements
-  - beautifulsoup4
-  - blas=1.1=openblas
-  - entrypoints
-  - fastcache
-  - freetype
-  - h5py
-  - hdf5
-  - ipykernel
-  - jpype1
-  - jsonschema
-  - jupyter_client
-  - jupyter_core
-  - matplotlib
+  #- beautifulsoup4
+  #- blas=1.1=openblas
+  #- entrypoints
+  #- fastcache
+  #- freetype
+  #- h5py
+  #- hdf5
+  #- ipykernel
+  #- jpype1
+  #- jsonschema
+  #- jupyter_client
+  #- jupyter_core
+  #- matplotlib
   #- networkx
   #- numexpr
   #- numpy
