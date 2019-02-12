@@ -18,6 +18,7 @@ try:
 
     ### PostresContentsManager ###
     database_url = os.getenv('DATABASE_URL', None)
+    '''
     if database_url:
         # Tell IPython to use PostgresContentsManager for all storage.
         c.NotebookApp.contents_manager_class = pgcontents.PostgresContentsManager
@@ -43,7 +44,7 @@ try:
         uri = vcap_application['uris'][0]
         c.NotebookApp.allow_origin = 'https://{}'.format(uri)
         c.NotebookApp.websocket_url = 'wss://{}:4443'.format(uri)
-
+    '''
 except Exception:
     traceback.print_exc()
     # if an exception occues, notebook normally would get started
