@@ -11,15 +11,6 @@ dependencies:
   - ipython = 5
   # bind tornado version (websocket problems)
   - tornado = 4.5
-  # get dependencies for pgcontents
-  - certifi
-  - click
-  - cryptography 
-  - mako
-  - psycopg2
-  - six
-  - sqlalchemy
-  - nose
   # Mining the Social Web 3rd Edition Requirements
   #- beautifulsoup4
   #- blas=1.1=openblas
@@ -69,7 +60,6 @@ dependencies:
   #- zeromq
   # To be installed via pip
   - pip:
-    - pgcontents
     - git+git://github.com/ipython-contrib/jupyter_contrib_nbextensions.git
     #- asn1crypto==0.24.0
     #- async-generator==1.10

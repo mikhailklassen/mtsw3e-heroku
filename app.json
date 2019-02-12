@@ -12,19 +12,8 @@
       "description": "Additional command line arguments.",
       "required": false,
       "value": ""
-    },
-    "ENVIRONMENT_YML": {
-      "description": "Alternative environment.yml path.",
-      "required": false,
-      "value": ""
-    },
-    "ADDITIONAL_ENVIRONMENT_YML": {
-      "description": "Additional environment.yml path.",
-      "required": false,
-      "value": ""
     }
   },
   "addons": [
-    "heroku-postgresql:hobby-dev"
   ]
 }
