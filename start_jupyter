@@ -4,6 +4,8 @@ pgcontents init -l $DATABASE_URL --no-prompt
 
 jupyter contrib nbextension install --user
 jupyter nbextensions_configurator enable --user
+sudo apt-get update
+sudo apt-get install --reinstall build-essential
 sudo apt install libcurl4-openssl-dev libssl-dev
 
 jupyter notebook \
