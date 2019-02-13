@@ -8,7 +8,6 @@ try:
     from pgcontents.hybridmanager import HybridContentsManager
     from IPython.html.services.contents.filemanager import FileContentsManager
 
-
     c = get_config()
 
     ### Password protection ###
