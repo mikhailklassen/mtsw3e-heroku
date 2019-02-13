@@ -30,6 +30,7 @@ dependencies:
   - pexpect
   - pickleshare
   - pillow
+  - pycurl
   - pygments
   - pyparsing
   - pyrsistent
