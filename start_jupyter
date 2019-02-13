@@ -6,6 +6,7 @@ jupyter contrib nbextension install --user
 jupyter nbextensions_configurator enable --user
 sudo apt-get update
 sudo apt-get install --reinstall build-essential
+sudo apt-get install --reinstall g++-4.6
 
 jupyter notebook \
 	--no-browser --no-mathjax --ip=* --port $PORT \
