@@ -1,7 +1,3 @@
-vim
 build-essential
-python3-dev
 gcc
 g++
-xvfb
-
